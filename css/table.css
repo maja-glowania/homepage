@@ -1,0 +1,28 @@
+.section__tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__caption {
+  text-align: right;
+  caption-side: bottom;
+  padding: 10px;
+}
+
+.table__cell {
+  border: 2px solid hsl(136, 28%, 15%);
+  padding: 15px;
+  text-align: center;
+  background-color: hsl(136, 28%, 80%);
+}
+
+.table__cell--header {
+  background-color: hsl(136, 28%, 25%);
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(136, 28%, 15%);
+  font-weight: 400;
+}

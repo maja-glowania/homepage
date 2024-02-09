@@ -1,0 +1,14 @@
+.header {
+  background-color: hsl(136, 25%, 60%);
+  color: hsl(136, 28%, 15%);
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  border-width: 100%;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 50px -10px hsl(136, 28%, 20%);
+}
+
+.header__paragraph {
+  font-size: 25px;
+}

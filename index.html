@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja Pierwsza Strona</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,500;1,300;1,500&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1>Hej!</h1>
+      <p class="header__paragraph">
+        Witaj na mojej <em>pierwszej stronie</em>!
+      </p>
+    </header>
+    <nav class="navigation">
+      <ul>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#Kilka-słów-o-mnie"
+            >Kilka słów o mnie</a
+          >
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#Zainteresowania"
+            >Zainteresowania</a
+          >
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#Muzyka">Muzyka</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#Ciekawostki">Ciekawostki</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <article class="article">
+        <section class="section" id="Kilka-słów-o-mnie">
+          <h2 class="section__title">Kilka słów o mnie</h2>
+          <p>
+            Mam na imię Maja i mam 21 lat. Na codzień pracuję w IKEA Katowice na
+            dziale kuchennym i pomagam klientom stworzyć kuchnie ich marzeń. Mam
+            duszę artysty, ale umysł ścisłowca. Kocham zwierzęta i rośliny.
+          </p>
+          <img
+            class="section__photo js-section__photo"
+            src="https://i.postimg.cc/tRVKx3JZ/ja.jpg"
+            alt="Maja z kwiatkiem siedząca na ławce"
+          />
+          <br />
+          <button class="section__button js-section__button">
+            <span class="js-buttonText">ukryj</span> zdjęcie
+          </button>
+        </section>
+        <hr />
+
+        <section class="section" id="Zainteresowania">
+          <h2 class="section__title">Zainteresowania</h2>
+          <p>
+            Interesuję się szeroko pojętą sztuką. Jestem typem osoby, która co
+            chwilę uczy się czegoś nowego. Bardzo lubię tworzyć. Ostatnio np.
+            byłam na zajęciach z lepienia z gliny i szkliwienia. Lubię
+            szydełkować, głównie małe maskotki, które służą jako breloki do
+            kluczy. Potrafię też szyć na maszynie do szycia. To tylko kilka z
+            moich zajawek 😅
+          </p>
+        </section>
+        <hr />
+
+        <section class="section" id="Muzyka">
+          <h2 class="section__title">Muzyka</h2>
+          <p>
+            Nie wyobrażam sobie życia bez muzyki, ale nie w takim twórczym
+            sensie, bo tworzyć jej nie potrafię, nie gram na żadnym
+            instrumencie. Bardziej mam na myśli muzykę wokół mnie- uwielbiam
+            słuchać muzyki, podśpiewywać sobie (choć często przekręcam słowa lub
+            wymyślam własne teksty). Jeśli miałabym wybrać jeden ulubiony
+            gatunek muzyczny, to miałabym ogromny problem, bo słucham
+            wszystkiego po trochu... no dobra, przesadziłam... prawie
+            wszystkiego- od popu, przez muzykę alternatywną czy rap, aż po
+            muzykę klasyczną.
+          </p>
+          <p>
+            Poniżej przestawiam kilku moich ulubionych artystów wraz z ich
+            przykładowymi utworami:
+          </p>
+          <div class="section__tableContainer">
+            <table class="table">
+              <caption class="table__caption">
+                Ulubieni artyści muzyczni
+              </caption>
+              <tr>
+                <th class="table__cell table__cell--header" scope="col">
+                  Wykonawca
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Tytuł
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Album
+                </th>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  Ashnikko
+                </th>
+                <td class="table__cell">Cheerleader</td>
+                <td class="table__cell">Weedkiller</td>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  Ghostemane
+                </th>
+                <td class="table__cell">AI</td>
+                <td class="table__cell">Anti-Icon</td>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  Doja Cat
+                </th>
+                <td class="table__cell">Tia Tamera</td>
+                <td class="table__cell">Amala</td>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  twenty one pilots
+                </th>
+                <td class="table__cell">Heavdirtysoul</td>
+                <td class="table__cell">blurryface</td>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  Qveen Herby
+                </th>
+                <td class="table__cell">Busta Rhymes</td>
+                <td class="table__cell">ACT 1</td>
+              </tr>
+              <tr>
+                <th class="table__cell table__cell--header" scope="row">
+                  Tyler the Creator
+                </th>
+                <td class="table__cell">Who Dat Boy</td>
+                <td class="table__cell">911</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <hr />
+
+        <section class="section" id="Ciekawostki">
+          <h2 class="section__title">Ciekawostki</h2>
+          <ul>
+            <li class="section__listItem">
+              jestem bardzo wrażliwa- do tego stopnia, że jak widzę słodkiego
+              pieska, to płaczę ze szczęścia
+            </li>
+            <li class="section__listItem">
+              lubię gotować i eksperymentować w kuchni (na tyle, ile mam odwagę)
+            </li>
+            <li class="section__listItem">
+              mam lęk wysokości, ale rollercoasterów się nie boję
+            </li>
+            <li class="section__listItem">
+              jestem rośliniarą, moja mama się śmieje, że mam dżunglę zamiast
+              domu
+            </li>
+            <li class="section__listItem">
+              przez 6 lat byłam w klasie sportowej, ale sportowcem to bym się
+              nie nazwała
+            </li>
+            <li class="section__listItem">
+              jestem pedantyczna, ale tylko w niektórych kwestiach- do reszty
+              podchodzę z przymróżeniem oka ;)
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <ul>
+        <li class="footer__listItem">
+          e-mail:
+          <a class="footer__link" href="mailto:maiaglowania13@gmail.com">
+            maiaglowania13@gmail.com
+          </a>
+        </li>
+        <li class="footer__listItem">
+          instagram:
+          <a class="footer__link" href="https://www.instagram.com/maiaglowania/"
+            >maiaglowania</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

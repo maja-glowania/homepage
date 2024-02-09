@@ -1,0 +1,20 @@
+.section__button {
+  cursor: pointer;
+  border-color: hsl(136, 28%, 28%);
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(136, 28%, 28%);
+  color: hsl(0, 0%, 100%);
+  border-style: solid;
+}
+
+.section__button:active {
+  background-color: hsl(136, 28%, 33%);
+  border-color: hsl(136, 28%, 33%);
+}
+
+.section__button:hover {
+  background-color: hsl(136, 28%, 38%);
+  border-color: hsl(136, 28%, 38%);
+}

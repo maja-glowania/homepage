@@ -1,0 +1,33 @@
+.navigation {
+  background-color: hsl(136, 35%, 28%);
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset 0px 0px 50px -10px hsl(136, 28%, 80%);
+}
+
+.navigation__listItem {
+  list-style: none;
+  margin: 10px;
+}
+
+.navigation__link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.navigation__link:focus {
+  outline: 2px solid currentColor;
+  border-radius: 5px;
+}
+
+.navigation__link:hover {
+  color: hsl(136, 28%, 15%);
+  outline: none;
+}
+
+.navigation__link:active {
+  color: hsl(136, 34%, 69%);
+}

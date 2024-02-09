@@ -1,0 +1,22 @@
+.section {
+  padding: 20px;
+}
+
+.section__title {
+  color: hsl(136, 28%, 28%);
+}
+
+.section__photo {
+  max-width: 200px;
+}
+
+.js-noSection__photo {
+  display: none;
+}
+
+.section__listItem {
+  list-style-type: "🐝";
+  margin: 5px;
+  text-align: left;
+  padding-left: 15px;
+}
