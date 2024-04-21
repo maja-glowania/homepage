@@ -14,15 +14,16 @@ html {
   margin: auto;
   max-width: 1200px;
   padding: 20px;
-  background-color: hsl(0, 0%, 100%);
+  background-image: url("../images/background.jpg");
+  background-size: 630px;
+  background-repeat: repeat;
 }
 
 .article {
-  border-style: solid;
-  border-color: hsl(136, 28%, 28%);
+  background-color: hsl(136, 28%, 88%);
   border-radius: 20px;
   padding: 30px;
   margin: 30px;
-  box-shadow: 10px 10px 20px -5px hsl(136, 28%, 28%);
+  box-shadow: inset 0px 0px 50px 5px hsl(136, 28%, 50%);
   text-align: center;
 }
