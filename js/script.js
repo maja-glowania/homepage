@@ -4,21 +4,21 @@
   };
 
   const hidePhoto = () => {
-    const photoElement = document.querySelector(".js-section__photo");
+    const photoElement = document.querySelector(".js-sectionPhoto");
     const buttonTextElement = document.querySelector(".js-buttonText");
 
-    photoElement.classList.toggle("js-noSection__photo");
+    photoElement.classList.toggle("noSection__photo");
     buttonTextElement.classList.toggle("pokaż");
 
     buttonTextElement.innerText = photoElement.classList.contains(
-      "js-noSection__photo"
+      "js-noSectionPhoto"
     )
       ? "pokaż"
       : "ukryj";
   };
 
   const init = () => {
-    const buttonElement = document.querySelector(".js-section__button");
+    const buttonElement = document.querySelector(".js-sectionButton");
     buttonElement.addEventListener("click", hidePhoto);
 
     welcome();
