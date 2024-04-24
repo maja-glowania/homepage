@@ -10,7 +10,7 @@
   max-width: 200px;
 }
 
-.noSection__photo {
+.section__photo--hidden {
   display: none;
 }
 

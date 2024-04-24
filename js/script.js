@@ -7,11 +7,11 @@
     const photoElement = document.querySelector(".js-sectionPhoto");
     const buttonTextElement = document.querySelector(".js-buttonText");
 
-    photoElement.classList.toggle("noSection__photo");
+    photoElement.classList.toggle("section__photo--hidden");
     buttonTextElement.classList.toggle("pokaż");
 
     buttonTextElement.innerText = photoElement.classList.contains(
-      "js-noSectionPhoto"
+      "section__photo--hidden"
     )
       ? "pokaż"
       : "ukryj";
